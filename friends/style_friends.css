@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 5vh;
+}
+section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+.friends_info i{
+    color: gray;
+}
+.up-nav{
+    height: 10vh;
+    font-size: 1.3em;
+}
+.title{
+    font-size: 1.5em;
+}
+.right_contents{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: auto;
+}
+.friends_info{
+    justify-content: center;
+    margin: 0;
+    height: 7vh;
+    background-color: rgb(239, 239, 239);
+    font-size: 1em;
+    font-weight: 500;
+}
+.profile{
+    height: 20vh;
+    font-size: 1.2em;
+    border-bottom: 3px solid rgb(239, 239, 239);
+}
+.profile img, .channel_detail img{
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+.channel_info{
+    align-items: start;
+    height: 5vh;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.right_content{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.channel_detail{
+    height: 15vh; 
+    font-size: 1.2em;
+}
+.channel_detail img{
+    width: 20%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    border-top: 3px solid rgb(239, 239, 239);
+    margin-top: auto;
+    font-size: 1.5em;
+    background-color: rgb(248, 248, 248);
+}
