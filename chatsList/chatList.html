@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     <title>likelion11th_SHA</title>
-    <link rel="stylesheet" href="style_friends.css">
+    <link rel="stylesheet" href="./chatList.css">
 </head>
 <body>
     <nav>
@@ -19,28 +19,28 @@
         </div>
     </nav>
     <section class="up-nav">
-        <div class="title">Friends</div>
+        <div class="title">Chats</div>
         <div class="right_contents">
             <div><i class="fas fa-search"></i></div>
+            <div><i class="far fa-comment-dots"></i></div>
             <div><i class="fas fa-music"></i></div>
             <div><i class="fas fa-cog"></i></div>
         </div>
     </section>
-    <section class="friends_info">
-        <i class="fas fa-info-circle"></i> &nbsp; Friends Names Display &nbsp; <i class="fas fa-angle-right"></i>
-    </section>
-    <section class="profile">
-        <img src="../static/미모티콘.png" alt="프로필 사진">
-        <div>현아</div>
-    </section>
-    <section class="channel_info">
-        <div>Channel</div>
-        <div class="right_content"><i class="fas fa-chevron-up"></i></div>
-    </section>
     <section class="channel_detail">
-        <img src="../static/kakaotalk_logo.png" alt="">
-        <div>Channel</div>
-        <div class="right_content">2 &nbsp; <i class="fas fa-angle-right"></i></div>
+        <a href="../chating/chating.html">
+            <div class="chat_list">
+                <img src="../static/kakaotalk_logo.png" alt="">
+                <div class="chat">
+                    <p class="user_name">KaKao</p>
+                    <p>Please check My KaKao Account info</p>
+                </div>
+                <div class="chat other">
+                    <p>21:22</p>
+                    <p class="square">1</p>
+                </div>
+            </div>
+        </a>
     </section>
     <p class="square down">1</p>
     <footer>
@@ -50,6 +50,5 @@
         <div><a href="../more/more.html"><i class="fas fa-ellipsis-h"></i></a></div>
     </footer>
 
-    <script type="text/javascript" src="friends.js"></script>
 </body>
 </html>

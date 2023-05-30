@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #c5d3dd;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 5vh;
+}
+section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.up-nav{
+    height: 10vh;
+    font-size: 1.6em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.title{
+    height: 100%;
+    padding-top: 20px;
+    width: 60%;
+}
+.position_left{
+    /* float: left; */
+    width: 20%;
+    text-align: start;
+    font-size: 1.8em;
+}
+.position_right{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date{
+    background-color: #5e666b46;
+    color: white;
+    width: 55%;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+.date p{
+    margin: 10px;
+    font-size: 0.9em;
+}
+
+.chatting_room{
+    margin: 20px;
+}
+.other_chat img{
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.user_name{
+    height: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.time{
+    display: flex;
+    align-items: end;
+    margin: 0;
+    margin-left: 5px;
+}
+.other_chat, .my_chat{
+    display: flex;
+    font-size: 0.78em;
+    font-weight: 100;
+}
+.my_chat{
+    float: right;
+    margin-left: auto;
+    margin-top: 30px;
+}
+.chat_body{
+    height: auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 20px;
+}
+.mine{
+    background-color: #f5e023;
+    border-radius: 15px 0 15px 15px;
+}
+
+.chat_area{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 95vw;
+    height: 6vh;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 0.9em;
+    padding: 15px 0 15px 20px;
+}
